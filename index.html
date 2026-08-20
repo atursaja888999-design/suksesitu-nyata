@@ -1,0 +1,363 @@
+<!doctype html>
+<html amp lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <link rel="canonical" href="https://desa88-ewg.pages.dev/">
+  <link rel="icon" type="image/png" href="https://cdn.phototourl.com/free/2026-08-19-66517da0-8c20-498d-8550-027686b143c6.png">
+  <link rel="apple-touch-icon" href="https://cdn.phototourl.com/free/2026-08-19-66517da0-8c20-498d-8550-027686b143c6.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <title>DESA88 | Akses Login dan Daftar</title>
+  <meta name="description" content="Halaman akses DESA88 untuk login, pendaftaran akun, dan informasi layanan.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#4d0710">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="DESA88">
+  <meta property="og:title" content="DESA88 | Akses Login dan Daftar">
+  <meta property="og:description" content="Akses halaman DESA88 untuk login, daftar, dan informasi layanan.">
+  <meta property="og:url" content="https://desa88-ewg.pages.dev/">
+  <meta property="og:image" content="https://i.postimg.cc/zDcKp7yT/image.png">
+  <meta property="og:image:alt" content="DESA88 - Akses login dan daftar">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DESA88 | Akses Login dan Daftar">
+  <meta name="twitter:description" content="Akses halaman DESA88 untuk login, daftar, dan informasi layanan.">
+  <meta name="twitter:image" content="https://i.postimg.cc/zDcKp7yT/image.png">
+
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+  <style amp-boilerplate>
+    body{
+      -webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+      -moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+      -ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+      animation:-amp-start 8s steps(1,end) 0s 1 normal both
+    }
+    @-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  </style>
+
+  <noscript>
+    <style amp-boilerplate>
+      body{
+        -webkit-animation:none;
+        -moz-animation:none;
+        -ms-animation:none;
+        animation:none
+      }
+    </style>
+  </noscript>
+
+  <style amp-custom>
+    :root{
+      --red-950:#160305;
+      --red-900:#30060a;
+      --gold:#ffd26a;
+      --white:#fff8f8;
+      --muted:#efb8bb;
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      min-height:100vh;
+      margin:0;
+      display:grid;
+      place-items:center;
+      background:
+        radial-gradient(circle at 50% 0%,#8b1220 0%,var(--red-900) 42%,var(--red-950) 100%);
+      color:var(--white);
+      font-family:Arial,Helvetica,sans-serif;
+      line-height:1.6;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .wrap{
+      width:min(92%,520px);
+      padding:24px 0;
+      text-align:center;
+    }
+
+    .brand{
+      margin:0 0 19px;
+      color:#fff;
+      font-size:1.7rem;
+      line-height:1;
+      letter-spacing:1.5px;
+      font-weight:900;
+      text-shadow:
+        0 0 10px rgba(255,255,255,.55),
+        0 0 24px rgba(255,51,68,.9);
+      animation:blink-title 1.25s ease-in-out infinite;
+    }
+
+    .brand span{
+      color:var(--gold);
+    }
+
+    .visual{
+      overflow:hidden;
+      border:3px solid var(--gold);
+      border-radius:18px;
+      background:#39070c;
+      box-shadow:
+        0 0 0 7px rgba(255,210,106,.12),
+        0 0 18px rgba(255,70,83,.75),
+        0 0 42px rgba(229,36,50,.6),
+        0 24px 56px rgba(0,0,0,.56);
+      animation:blink-border 1.1s ease-in-out infinite;
+    }
+
+    .visual amp-img{
+      display:block;
+    }
+
+    .links{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+      margin-top:22px;
+    }
+
+    .link{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:52px;
+      border:2px solid transparent;
+      border-radius:11px;
+      font-weight:900;
+      letter-spacing:.3px;
+      transition:transform .2s,filter .2s;
+    }
+
+    .login{
+      border-color:#ff7d86;
+      background:linear-gradient(180deg,#ff4a57,#bc111e);
+      color:#fff;
+      box-shadow:0 0 16px rgba(255,61,75,.74);
+      animation:blink-login .95s ease-in-out infinite;
+    }
+
+    .daftar{
+      border-color:#fff0b8;
+      background:linear-gradient(180deg,#ffe39b,#d99919);
+      color:#3f2100;
+      box-shadow:0 0 16px rgba(255,210,106,.55);
+    }
+
+    .link:hover,
+    .link:focus{
+      filter:brightness(1.14);
+      transform:translateY(-2px);
+    }
+
+    .content{
+      margin-top:22px;
+      padding:16px;
+      border:1px solid rgba(255,210,106,.28);
+      border-radius:13px;
+      background:rgba(255,255,255,.045);
+      text-align:left;
+    }
+
+    .content h2{
+      margin:0 0 7px;
+      color:#ffe7a4;
+      font-size:1rem;
+    }
+
+    .content p{
+      margin:0;
+      color:var(--muted);
+      font-size:.84rem;
+      line-height:1.65;
+    }
+
+    .note{
+      margin:17px 8px 0;
+      color:var(--muted);
+      font-size:.8rem;
+      line-height:1.5;
+    }
+
+    .footer{
+      margin-top:24px;
+      color:#d28d93;
+      font-size:.76rem;
+    }
+
+    @keyframes blink-title{
+      0%,100%{
+        opacity:1;
+        text-shadow:
+          0 0 10px rgba(255,255,255,.55),
+          0 0 24px rgba(255,51,68,.9);
+      }
+      50%{
+        opacity:.55;
+        text-shadow:
+          0 0 3px rgba(255,255,255,.25),
+          0 0 9px rgba(255,51,68,.35);
+      }
+    }
+
+    @keyframes blink-border{
+      0%,100%{
+        border-color:var(--gold);
+        box-shadow:
+          0 0 0 7px rgba(255,210,106,.12),
+          0 0 18px rgba(255,70,83,.75),
+          0 0 42px rgba(229,36,50,.6),
+          0 24px 56px rgba(0,0,0,.56);
+      }
+      50%{
+        border-color:#fff5cd;
+        box-shadow:
+          0 0 0 3px rgba(255,210,106,.06),
+          0 0 6px rgba(255,70,83,.32),
+          0 0 15px rgba(229,36,50,.25),
+          0 24px 56px rgba(0,0,0,.56);
+      }
+    }
+
+    @keyframes blink-login{
+      0%,100%{
+        opacity:1;
+        box-shadow:0 0 16px rgba(255,61,75,.74);
+      }
+      50%{
+        opacity:.62;
+        box-shadow:0 0 5px rgba(255,61,75,.2);
+      }
+    }
+
+    @media(max-width:360px){
+      .links{
+        grid-template-columns:1fr;
+      }
+
+      .wrap{
+        padding:18px 0;
+      }
+    }
+
+    @media(prefers-reduced-motion:reduce){
+      *,
+      *:before,
+      *:after{
+        animation:none;
+        transition:none;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "@id":"https://desa88-ewg.pages.dev/#organization",
+        "name":"DESA88",
+        "url":"https://desa88-ewg.pages.dev/",
+        "logo":{
+          "@type":"ImageObject",
+          "url":"https://cdn.phototourl.com/free/2026-08-19-66517da0-8c20-498d-8550-027686b143c6.png"
+        }
+      },
+      {
+        "@type":"WebSite",
+        "@id":"https://desa88-ewg.pages.dev/#website",
+        "url":"https://desa88-ewg.pages.dev/",
+        "name":"DESA88",
+        "inLanguage":"id-ID",
+        "publisher":{
+          "@id":"https://desa88-ewg.pages.dev/#organization"
+        }
+      },
+      {
+        "@type":"WebPage",
+        "@id":"https://desa88-ewg.pages.dev/#webpage",
+        "url":"https://desa88-ewg.pages.dev/",
+        "name":"DESA88 | Akses Login dan Daftar",
+        "isPartOf":{
+          "@id":"https://desa88-ewg.pages.dev/#website"
+        },
+        "about":{
+          "@id":"https://desa88-ewg.pages.dev/#organization"
+        },
+        "inLanguage":"id-ID"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <main class="wrap">
+    <h1 class="brand">DESA<span>88</span></h1>
+
+    <a
+      href="https://rejeki.io/desa88-pasticuan"
+      rel="nofollow sponsored"
+      aria-label="Kunjungi halaman DESA88"
+    >
+      <section class="visual" aria-label="Banner DESA88">
+        <amp-img
+          src="https://i.postimg.cc/zDcKp7yT/image.png"
+          width="960"
+          height="540"
+          layout="responsive"
+          alt="DESA88 - Akses login dan daftar">
+        </amp-img>
+      </section>
+    </a>
+
+    <nav class="links" aria-label="Akses DESA88">
+      <a
+        class="link login"
+        href="https://rejeki.io/desa88-pasticuan"
+        rel="nofollow sponsored"
+      >
+        Login
+      </a>
+
+      <a
+        class="link daftar"
+        href="https://rejeki.io/desa88-pasticuan"
+        rel="nofollow sponsored"
+      >
+        Daftar
+      </a>
+    </nav>
+
+    <section class="content" aria-labelledby="informasi-desa88">
+      <h2 id="informasi-desa88">Akses layanan DESA88</h2>
+      <p>
+        Gunakan tombol Login atau Daftar untuk melanjutkan ke halaman tujuan.
+        Pastikan penggunaan layanan sesuai dengan syarat, ketentuan, serta aturan yang berlaku.
+      </p>
+    </section>
+
+    <p class="note">
+      Seluruh tautan pada halaman ini mengarah ke halaman tujuan DESA88.
+    </p>
+
+    <footer class="footer">
+      © 2026 DESA88. Semua hak dilindungi.
+    </footer>
+  </main>
+</body>
+</html>
