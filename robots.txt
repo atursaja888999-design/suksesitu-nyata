@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://desa88-ewg.pages.dev/sitemap.xml
